@@ -31,7 +31,6 @@
             android:textSize="190dp"
             android:textStyle="bold"/>
 
-
         <Button
             android:id="@+id/button_count"
             android:layout_width="match_parent"
