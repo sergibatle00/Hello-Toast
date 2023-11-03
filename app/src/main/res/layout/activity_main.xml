@@ -9,36 +9,35 @@
 
         <Button
             android:id="@+id/button_toast"
-            android:layout_width="match_parent"
-            android:layout_height="80dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/show_count"
+            android:layout_marginBottom="-51dp"
+            android:background="@color/blue"
             android:text="Toast"
             android:textColor="@color/white"
-            android:background="@color/blue"
-            android:textSize="20sp"
-            android:layout_centerHorizontal="true"
-            android:layout_alignParentTop="true" />
+            android:textSize="20sp" />
 
         <TextView
             android:id="@+id/show_count"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="0"
-            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
             android:background="@color/yellow"
+            android:text="0"
             android:textColor="@color/blue"
             android:textSize="190sp"
-            android:textStyle="bold"
-            android:layout_centerInParent="true" />
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/button_count"
-            android:layout_width="match_parent"
-            android:layout_height="80dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/show_count"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="-204dp"
+            android:background="@color/blue"
             android:text="Count"
             android:textColor="@color/white"
-            android:background="@color/blue"
-            android:textSize="20sp"
-            android:layout_centerHorizontal="true"
-            android:layout_alignParentBottom="true" />
-
+            android:textSize="20dp" />
 </RelativeLayout>
